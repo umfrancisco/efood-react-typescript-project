@@ -146,7 +146,7 @@ function Cart() {
         <CartContainer onSubmit={form.handleSubmit} className={isOpen ? "is-open" : ""}>
             <Overlay onClick={() => {
                 closeCart()
-                resetCount()
+                doResetCount()
             }}/>
             <Sidebar>
 
